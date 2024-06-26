@@ -60,3 +60,7 @@ footer {
     background: #333;
     color: #fff;
 }
+
+body.works_on_smartphone {
+    display: block;
+}
