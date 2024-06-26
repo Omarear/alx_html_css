@@ -1,0 +1,252 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+/* Hero section with header */
+.hero-section {
+    background-image: url('Object.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.purple {
+    color: #c271ff;
+}
+
+button {
+    background-color: #c271ff;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Header */
+header {
+
+    padding: 20px 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero content */
+.hero {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 16px;
+    margin: 0 0 40px;
+}
+
+.hero span {
+    padding: 0 20px;
+}
+
+/* Pros section */
+.pros {
+    margin-top: 100px;
+}
+
+.pros h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.pros-grid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.pro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.testimonial {
+    background-color: #c271ff;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-right: 50px;
+}
+
+.testimonial blockquote {
+    font-size: 22px;
+    font-style: italic;
+    margin: 0 0 20px;
+}
+
+.testimonial .author {
+    font-weight: bold;
+    ;
+}
+
+/* Tutorials section */
+.tutorials {
+    background-color: white;
+    color: black;
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.tutorials h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.tutorial-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.tutorial img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tutorial .author {
+    display: flex;
+    align-items: center;
+}
+
+.tutorial .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.rating .rating-stars {
+    width: 150px;
+
+    height: auto;
+
+}
+
+/* Membership section */
+.membership {
+    background-color: #071629;
+    text-align: center;
+    padding: 80px 100px;
+}
+
+.membership h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.membership-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.membership-item img {
+    width: 50px;
+}
+
+/* FAQ section */
+.faq {
+    background-color: white;
+    color: black;
+    padding: 80px 100px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #071629;
+    padding: 20px 100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+    /* Adjust as needed */
+}
+
+.copyright {
+    color: white;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    /* Space between icons */
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    /* Adjust icon size as needed */
+    text-decoration: none;
+}
+
+/* Optional: Add hover effect to social icons */
+.social-icons a:hover {
+    color: #c271ff;
+    /* Or any color you prefer */
+}
