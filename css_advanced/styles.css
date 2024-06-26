@@ -5,7 +5,7 @@ body {
     color: #ffffff;
 }
 
-/* Hero section with header */
+
 .hero-section {
     background-image: url('Object.png');
     background-size: cover;
@@ -27,7 +27,7 @@ button {
     font-weight: bold;
 }
 
-/* Header */
+
 header {
 
     padding: 20px 100px;
@@ -57,7 +57,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Hero content */
+
 .hero {
     text-align: center;
     padding: 150px 0;
@@ -77,7 +77,7 @@ nav ul li a {
     padding: 0 20px;
 }
 
-/* Pros section */
+
 .pros {
     margin-top: 100px;
 }
@@ -125,7 +125,7 @@ nav ul li a {
     ;
 }
 
-/* Tutorials section */
+
 .tutorials {
     background-color: white;
     color: black;
@@ -168,7 +168,7 @@ nav ul li a {
 
 }
 
-/* Membership section */
+
 .membership {
     background-color: #071629;
     text-align: center;
@@ -190,7 +190,7 @@ nav ul li a {
     width: 50px;
 }
 
-/* FAQ section */
+
 .faq {
     background-color: white;
     color: black;
@@ -210,7 +210,7 @@ nav ul li a {
     text-align: left;
 }
 
-/* Footer */
+
 footer {
     background-color: #071629;
     padding: 20px 100px;
@@ -224,7 +224,7 @@ footer {
 
 .logo {
     height: 30px;
-    /* Adjust as needed */
+
 }
 
 .copyright {
@@ -235,18 +235,18 @@ footer {
 .social-icons {
     display: flex;
     gap: 20px;
-    /* Space between icons */
+
 }
 
 .social-icons a {
     color: white;
     font-size: 24px;
-    /* Adjust icon size as needed */
+
     text-decoration: none;
 }
 
-/* Optional: Add hover effect to social icons */
+
 .social-icons a:hover {
     color: #c271ff;
-    /* Or any color you prefer */
+
 }
