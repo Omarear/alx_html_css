@@ -25,3 +25,8 @@ Once you have the project set up locally, you can customize it to fit your needs
 Contributing : 
 
 Contributions are welcome! If you have suggestions for improvements or find any issues, please feel free to open an issue or submit a pull request. Let's make SmileSchool even better together!
+
+
+
+
+------------- ALX PROJECT -----------
